@@ -1,0 +1,164 @@
+GIT
+  remote: https://github.com/s0undt3ch/winrm-fs.git
+  revision: ee566b1d5453a6845a2667032a2e1fe15c8f5464
+  branch: hotfix/saltstack-ci
+  specs:
+    winrm-fs (1.3.2)
+      erubis (~> 2.7)
+      logging (>= 1.6.1, < 3.0)
+      rubyzip (~> 1.1)
+      winrm (~> 2.0)
+
+GIT
+  remote: https://github.com/saltstack/kitchen-salt.git
+  revision: 8b3228763d5adc5d424e42d25712bc0cb5ba91ed
+  specs:
+    kitchen-salt (0.6.3)
+      hashie (>= 3.5)
+      test-kitchen (>= 1.4)
+
+GIT
+  remote: https://github.com/test-kitchen/kitchen-docker.git
+  revision: b45c4858bef19f22a32096e44777bff097f35dd8
+  specs:
+    kitchen-docker (2.10.0)
+      test-kitchen (>= 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.1.1)
+    aws-partitions (1.465.0)
+    aws-sdk-core (3.114.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-ec2 (1.240.0)
+      aws-sdk-core (~> 3, >= 3.112.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.2.3)
+      aws-eventstream (~> 1, >= 1.0.2)
+    bcrypt_pbkdf (1.1.0)
+    builder (3.2.4)
+    chef-utils (17.1.35)
+      concurrent-ruby
+    concurrent-ruby (1.1.9)
+    ed25519 (1.2.4)
+    erubi (1.10.0)
+    erubis (2.7.0)
+    ffi (1.15.1)
+    git (1.8.1)
+      rchardet (~> 1.8)
+    gssapi (1.3.1)
+      ffi (>= 1.0.1)
+    gyoku (1.3.1)
+      builder (>= 2.1.2)
+    hashie (4.1.0)
+    httpclient (2.8.3)
+    jmespath (1.4.0)
+    kitchen-ec2 (3.9.0)
+      aws-sdk-ec2 (~> 1.0)
+      retryable (>= 2.0, < 4.0)
+      test-kitchen (>= 1.4.1, < 3)
+    kitchen-sync (2.2.1)
+      net-sftp
+      test-kitchen (>= 1.0.0)
+    license-acceptance (2.1.13)
+      pastel (~> 0.7)
+      tomlrb (>= 1.2, < 3.0)
+      tty-box (~> 0.6)
+      tty-prompt (~> 0.20)
+    little-plugger (1.1.4)
+    logging (2.3.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.14)
+    mixlib-install (3.12.11)
+      mixlib-shellout
+      mixlib-versioning
+      thor
+    mixlib-shellout (3.2.5)
+      chef-utils
+    mixlib-versioning (1.2.12)
+    multi_json (1.15.0)
+    net-scp (3.0.0)
+      net-ssh (>= 2.6.5, < 7.0.0)
+    net-sftp (3.0.0)
+      net-ssh (>= 5.0.0, < 7.0.0)
+    net-ssh (6.1.0)
+    net-ssh-gateway (2.0.0)
+      net-ssh (>= 4.0.0)
+    nori (2.6.0)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    rchardet (1.8.0)
+    retryable (3.0.5)
+    rubyntlm (0.6.3)
+    rubyzip (1.3.0)
+    strings (0.2.1)
+      strings-ansi (~> 0.2)
+      unicode-display_width (>= 1.5, < 3.0)
+      unicode_utils (~> 1.4)
+    strings-ansi (0.2.0)
+    test-kitchen (2.11.2)
+      bcrypt_pbkdf (~> 1.0)
+      chef-utils (>= 16.4.35)
+      ed25519 (~> 1.2)
+      license-acceptance (>= 1.0.11, < 3.0)
+      mixlib-install (~> 3.6)
+      mixlib-shellout (>= 1.2, < 4.0)
+      net-scp (>= 1.1, < 4.0)
+      net-ssh (>= 2.9, < 7.0)
+      net-ssh-gateway (>= 1.2, < 3.0)
+      thor (>= 0.19, < 2.0)
+      winrm (~> 2.0)
+      winrm-elevated (~> 1.0)
+      winrm-fs (~> 1.1)
+    thor (1.1.0)
+    tomlrb (2.0.1)
+    tty-box (0.7.0)
+      pastel (~> 0.8)
+      strings (~> 0.2.0)
+      tty-cursor (~> 0.7)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
+    unicode-display_width (2.0.0)
+    unicode_utils (1.4.0)
+    winrm (2.3.6)
+      builder (>= 2.1.2)
+      erubi (~> 1.8)
+      gssapi (~> 1.2)
+      gyoku (~> 1.0)
+      httpclient (~> 2.2, >= 2.2.0.2)
+      logging (>= 1.6.1, < 3.0)
+      nori (~> 2.0)
+      rubyntlm (~> 0.6.0, >= 0.6.3)
+    winrm-elevated (1.2.3)
+      erubi (~> 1.8)
+      winrm (~> 2.0)
+      winrm-fs (~> 1.0)
+    wisper (2.0.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  git
+  kitchen-docker!
+  kitchen-ec2 (>= 3.8)
+  kitchen-salt!
+  kitchen-sync
+  test-kitchen (>= 2.11.1)
+  winrm (~> 2.0)
+  winrm-fs!
+
+BUNDLED WITH
+   2.2.17

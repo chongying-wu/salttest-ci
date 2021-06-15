@@ -1,0 +1,4 @@
+---
+username: kitchen
+ssh_key: "/home/ld-sgdev/yunfan_zhang/salt-code/salt/tests/kitchen/.kitchen/docker_id_rsa"
+last_error: Kitchen::ShellOut::ShellCommandFailed
